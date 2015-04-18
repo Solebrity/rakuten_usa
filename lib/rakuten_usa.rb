@@ -1,6 +1,8 @@
 require "rakuten_usa/version"
 require "rakuten_usa/client"
+require "rakuten_usa/base"
 require "rakuten_usa/configuration"
+require "rakuten_usa/link_locator"
 
 module Rakuten
   def self.config
